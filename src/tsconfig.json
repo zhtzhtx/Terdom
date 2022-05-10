@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "lib": ["ESNext", "DOM"],
+    "module": "ESNext",
+    "target": "ES2015",
+    "outDir": "../build/package",
+    "plugins": [
+        {
+          "transform": "./ts-transform-js-extension.cjs",
+          "import": "transform",
+          "after": true,
+          "type": "raw"
+        }
+    ]
+  },
+  "files": [
+    "./init.ts",
+    "./htmldomapi.ts",
+    "./vnode.ts",
+    "./h.ts",
+    "./is.ts",
+    "./modules/attributes.ts",
+    "./modules/class.ts",
+    "./modules/eventlisteners.ts",
+    "./modules/props.ts",
+    "./modules/style.ts",
+    "./modules/index.ts",
+  ]
+}

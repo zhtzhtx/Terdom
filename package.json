@@ -1,0 +1,26 @@
+{
+  "name": "terdom",
+  "version": "1.0.0",
+  "description": "A virtual DOM designed by hanting",
+  "type": "module",
+  "exports": {
+    "./init": "./build/package/init.js",
+    "./h": "./build/package/h.js",
+    "./htmldomapi": "./build/package/htmldomapi.js",
+    "./is": "./build/package/is.js",
+    "./vnode": "./build/package/vnode.js"
+  },
+  "scripts": {
+    "build": "ttsc --build src/tsconfig.json"
+  },
+  "keywords": [
+    "virtual",
+    "dom"
+  ],
+  "author": "hanting",
+  "license": "ISC",
+  "devDependencies": {
+    "ttypescript": "^1.5.13",
+    "typescript": "^4.3.5"
+  }
+}
