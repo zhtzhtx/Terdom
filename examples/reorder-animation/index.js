@@ -15,7 +15,7 @@ let content = h('div', [
     h('p', '源码地址:'),
     h('a', {
         props: {
-            href: "https://github.com/zhtzhtx?tab=repositories"
+            href: "https://github.com/zhtzhtx/Terdom"
         }
     }, 'https://github.com/zhtzhtx?tab=repositories')
 ])

@@ -1,4 +1,4 @@
-**<font size="8">Terdom</font>**
+# Terdom
 
 一个为了学习Snabbdom虚拟 DOM 库的源码，而实现的虚拟 DOM 库
 
